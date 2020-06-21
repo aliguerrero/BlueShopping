@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400&display=swap');
+*{
+	font-family: 'MuseoModerno', cursive;
+}
+.contenedor{
+	display: table;
+	position: relative;
+	
+	padding: 80px;
+	width:60%;
+	top: 6em;
+
+	background: rgba(255,255,255,0.7);
+	
+}
+.contenedor-p2{
+	display: table;
+	position: relative;
+	
+	padding: 80px;
+	width:60%;
+	height: 40%;
+	top: 6em;
+	left: 30em;
+
+	background: rgba(255,255,255,0.7);
+	
+}
+.texto,.texto-p2{
+	text-align: justify;
+}
+.texto{
+	font-size: 2em;
+}
+.btn1{
+	margin-top: 30px;
+}
+.btn1>a{
+	border: 1px solid #000;
+	
+	padding: 9px;
+	color: #000;
+}
+.btn1>a:hover{
+	color: #fff;
+	background: #000;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400&display=swap');
+*{
+  font-family: 'MuseoModerno', cursive;
+}
+.App{
+  position: relative;
+  width: 100%;
+}
+.nav {
+  position: fixed;
+  z-index: 1010;
+  display: inline-block;
+  width: 100%;
+  
+  background: #000;
+
+}
+.list{
+  list-style: none;
+
+}
+.list>li{
+  display: inline-block;
+  width: auto;
+  float: left;
+  padding: 10px; 
+}
+.list>li>a{
+  color: #fff;
+}
+.card{
+  padding: 45px;
+}
+.log{
+  width: 30%;
+  float: left;
+  padding:5px;
+  padding-left: 70px;
+  font-size: 1.5em;
+}
+.log>a{
+  color: white;
+}
+.btns{
+  position: relative;
+  
+  padding-left: 65%;
+}
+.list>li:hover{
+  background: #939393;
+}
+

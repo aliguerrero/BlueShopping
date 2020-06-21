@@ -1,0 +1,19 @@
+.formu{
+
+	position: relative;
+	left: 50em;
+	top: 3em;
+	color: #000;
+	background:rgba(0, 0, 0,0.4);
+	width: 500px;
+
+	padding: 40px;	
+
+}
+.regis{
+	display: block;
+	background: url(../img/fondo3.jpg) ;
+ 	background-color: red; 
+  	background-size: cover; 
+  	background-position: right bottom; 
+}

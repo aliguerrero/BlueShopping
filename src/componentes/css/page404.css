@@ -1,0 +1,14 @@
+.page-1 {
+ position: relative;
+ width: 100%;
+ height: 100%;
+}
+.page-2 {
+ position: absolute; /* podría ser relative */
+ width: 400px;
+ height: 250px;
+ left: 30%;
+ top: 170px;
+ 
+}
+
